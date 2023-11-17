@@ -29,11 +29,11 @@ btn_send.addEventListener('click', (e) => {
 })
 
 
-init_data.innerText = `${tg.initDataUnsafe.query_id}\t`
-init_data.innerText += `${tg.initDataUnsafe.user.username}\t`
-init_data.innerText += `${tg.initDataUnsafe.user.name}\t`
-init_data.innerText += `${tg.initDataUnsafe.receiver}\t`
-init_data.innerText += `${tg.initDataUnsafe.chat}\t`
-init_data.innerText += `${tg.initDataUnsafe.chat_type}\t`
-init_data.innerText += `${tg.initDataUnsafe.chat_instance}\t`
-init_data.innerText += `${tg.initDataUnsafe.start_param}\t`
+init_data.innerText = `${tg.initDataUnsafe.query_id}\n`
+init_data.innerText += `${tg.initDataUnsafe.user.username}\n`
+init_data.innerText += `${tg.initDataUnsafe.user.name}\n`
+init_data.innerText += `${tg.initDataUnsafe.receiver}\n`
+init_data.innerText += `${tg.initDataUnsafe.chat}\n`
+init_data.innerText += `${tg.initDataUnsafe.chat_type}\n`
+init_data.innerText += `${tg.initDataUnsafe.chat_instance}\n`
+init_data.innerText += `${tg.initDataUnsafe.start_param}\n`
