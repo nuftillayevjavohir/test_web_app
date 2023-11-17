@@ -2,6 +2,7 @@ tg = window.Telegram.WebApp
 
 
 const urlParams = new URLSearchParams(window.location.search);
+console.log(urlParams)
 const param1Value = urlParams.get('param1');
 const param2Value = urlParams.get('param2');
 
