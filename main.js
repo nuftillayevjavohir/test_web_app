@@ -61,4 +61,6 @@ init_data.innerText += `${tg.initDataUnsafe.auth_date}\n`
 init_data.innerText += `${tg.initDataUnsafe.hash}\n`
 
 
-
+console.log(tg.initData)
+console.log(window.Telegram.WebApp.initData)
+console.log(Telegram.WebApp.initData)
