@@ -2,7 +2,7 @@ tg = window.Telegram.WebApp
 
 
 let params = new URLSearchParams(window.location.search);
-let userID = params.get('userID');
+let userID = params.get('token');
 
 console.log(userID)
 
